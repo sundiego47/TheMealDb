@@ -19,12 +19,10 @@ class MealDetailsService {
         
         let (data, _) = try await URLSession.shared.data(from: url)
         let mealDetailResponse = try JSONDecoder().decode(MealDetailResponse.self, from: data)
-        print(mealDetailResponse)
+        
         guard let mealDetail = mealDetailResponse.meals.first else {
             throw URLError(.badServerResponse)
         }
-//        print(mealDetail)
-        
         return mealDetail
     }
 }
