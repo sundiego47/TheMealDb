@@ -1,4 +1,4 @@
-# MealDB iOS Application
+# TheMealDB iOS Application
 
 ## Overview
 
@@ -35,7 +35,7 @@ This project is organized using the MVVM architecture, which separates concerns 
 The project uses Swift Concurrency (`async/await`) to handle network requests and data processing, ensuring that the app remains responsive and performant:
 
 - **Asynchronous Data Fetching**: 
-  - The `DessertService` and `MealDetailService` use `async/await` to fetch data from TheMealDB API. This ensures that the UI remains responsive while waiting for data.
+  - The `DessertService` and `MealDetailsService` use `async/await` to fetch data from TheMealDB API. This ensures that the UI remains responsive while waiting for data.
   
 - **Task Management**: 
   - The `Task` API is used to launch asynchronous tasks within the view models. This allows for easy cancellation and error handling of network requests.

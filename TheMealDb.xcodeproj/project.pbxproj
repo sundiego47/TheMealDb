@@ -18,6 +18,7 @@
 		9F0829982C6E844400FC5574 /* DessertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0829972C6E844400FC5574 /* DessertService.swift */; };
 		9F08299A2C6E86BB00FC5574 /* MealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0829992C6E86BB00FC5574 /* MealDetails.swift */; };
 		9F08299C2C6E909E00FC5574 /* MealDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F08299B2C6E909E00FC5574 /* MealDetailsService.swift */; };
+		9FD44E502C6ED37600DE0E11 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FD44E4F2C6ED37600DE0E11 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9F0829972C6E844400FC5574 /* DessertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertService.swift; sourceTree = "<group>"; };
 		9F0829992C6E86BB00FC5574 /* MealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetails.swift; sourceTree = "<group>"; };
 		9F08299B2C6E909E00FC5574 /* MealDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsService.swift; sourceTree = "<group>"; };
+		9FD44E4F2C6ED37600DE0E11 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		9F08295A2C6E807A00FC5574 = {
 			isa = PBXGroup;
 			children = (
+				9FD44E4F2C6ED37600DE0E11 /* README.md */,
 				9F0829652C6E807A00FC5574 /* TheMealDb */,
 				9F0829762C6E807B00FC5574 /* TheMealDbTests */,
 				9F0829802C6E807B00FC5574 /* TheMealDbUITests */,
@@ -275,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD44E502C6ED37600DE0E11 /* README.md in Resources */,
 				9F08296E2C6E807B00FC5574 /* Preview Assets.xcassets in Resources */,
 				9F08296B2C6E807B00FC5574 /* Assets.xcassets in Resources */,
 			);
